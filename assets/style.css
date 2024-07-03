@@ -167,7 +167,6 @@ nav {
 
 @media screen  and (max-width:500px) {
     nav {
-        padding: 5% 3% 2%;
         align-items: center;
         
     }
