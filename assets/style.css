@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #162a36;
+    color: white;
+}
+
+nav {
+    display: flex;
+    padding: 2.5% 5% 2%;
+    position: relative;
+    align-items: center;
+}
+
+.realtime {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    right: 7%;
+    gap: 10%;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.my_Informations {
+    display: flex;
+    padding: 12% 5%;
+    width: 100%;
+}
+
+.about_me {
+    width: 85%;
+    padding: 2% 0% 0%;
+}
+
+
+.about_me h1{
+    font-size: 50px;
+}
+
+.about_me h3 {
+    font-size: 25px;
+    line-height: 44px;
+}
+
+.about_me p {
+    font-size: 15px;
+    font-weight: 450;
+    width: 94%;
+    padding-bottom: 20px;
+}
+
+.user_image img{
+    border-radius: 13%;
+}
+
+.contact_details a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+@media screen and (max-width:900px) {
+    .my_Informations {
+        padding: 11% 5% 0%;
+    }
+
+    .about_me p {
+        font-size: 13px;
+        font-weight: 450;
+        width: 96%;
+        padding-bottom: 15px;
+    }
+    
+    .links a{
+        font-size: 13px;
+    }
+
+    .realtime {
+        display: flex;
+        gap: 9px;
+        font-size: 13px;
+    }
+
+    .about_me h1 {
+        font-size: 40px;
+    }
+
+    .about_me h3 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    nav {
+        padding: 4% 3% 2%;
+    }
+
+    .my_Informations {
+        padding: 16% 3% 0%;
+    }
+
+    .about_me h1 {
+        font-size: 28px;
+    }
+
+    .about_me h3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .about_me p {
+        font-size: 12px;
+        width: 97%;
+        letter-spacing: 0.15px;
+        word-spacing: 0.5px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .my_Informations {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 12% 3% 0%;
+    }
+
+    .about_me {
+        width: 100%;
+        padding: 3.5% 0% 0%;
+    }
+
+    .realtime {
+        display: flex;
+        gap: 6px;
+        font-size: 10px;
+    }
+
+    .links a {
+        font-size: 11px;
+    }
+
+    .user_image{
+        width: 100%;
+    }
+
+    .contact_details{
+        text-align: left;
+    }
+
+}
+
+@media screen  and (max-width:500px) {
+    nav {
+        padding: 5% 3% 2%;
+    }
+
+    .my_Informations {
+        padding: 12% 5% 0%;
+    }
+
+    .about_me p {
+        padding-bottom: 10px;
+    }
+
+    .about_me h1 {
+        font-size: 22px;
+    }
+
+    .about_me h3 {
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+
+    .about_me p {
+        font-size: 11.5px;
+        width: 97%;
+        letter-spacing: 0.15px;
+        line-height: 15px;
+        word-spacing: 0.5px;
+    }
+
+    .links {
+        right: 7%;
+        gap: 6%;
+    }
+    
+}
